@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+fieldset {
+    color: aliceblue;
+    border: none;
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro';
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actor-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    margin-left: 5%;
+}
+
+
+.card:hover{
+    transform:scale(1.02) ;
+}
+
+.banner-1 {
+    background-image: url('https://kmesh.io/img/marvel/25/mcu-shocking-easter-egg-from-iron-man-2-reveals-tony-stark-s-plans.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://images6.alphacoders.com/435/thumbbig-435598.webp');
+}
+
+.banner-3 {
+    background-image: url('https://images6.alphacoders.com/491/thumbbig-491586.webp');
+}
+
+.banner-4 {
+    background-image: url("https://1.bp.blogspot.com/-YKqhGLNAXLY/XqwrvxgdUpI/AAAAAAAAQ2U/UNVCmGyVtHAReDJxDzcWzI-HIngYdj19gCLcBGAsYHQ/s1600/Marvel-Studios-Iron-Man-2.jpg");
+}
+
+.banner-5 {
+    background-image: url('https://images2.alphacoders.com/105/thumbbig-1051995.webp');
+}
+
+.banner-6 {
+    background-image: url("https://images.alphacoders.com/689/thumb-1920-689262.jpg");
+}
+
+@media(max-width:768px) {
+    h1 {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .cards-content {
+        grid-template-columns: 1fr;
+    }
+
+    .banner-5 {
+        background-position: 100%;
+    }
+
+    .banner-6 {
+        background-position: 50%;
+    }
+
+    .banner-1 {
+        background-position: 30%;
+    }
+
+    .banner-2 {
+        background-position: 70%;
+    }
+}

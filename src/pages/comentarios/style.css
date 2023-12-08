@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.title {
+    font-family: 'Kdam Thmor Pro' sans-serif;
+    font-style: oblique;
+    color: #D95204;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contain {
+    padding: 10px;
+    opacity: 80%;
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center;
+}
+
+.contain-coments {
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #D95204;
+    border-radius: 4px;
+    border-style: inset;
+    opacity: 87%;
+    width: 600px;
+    height: 340px;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-style: oblique;
+    color:#D95204;
+    padding-bottom: 5px;
+    display: flex;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+}
+
+.coments {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.pessoa {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.date {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 22px;
+    color: aliceblue;
+
+}
+
+span {
+    color: aliceblue;
+    font-family: 'Kdam thmor Pro', sans-serif;
+}
+
+#Tom {
+    border-radius: 50%;
+}
+
+#Ryan {
+    border-radius: 50%;
+}
+
+#Chris {
+    border-radius: 50%;
+}
+
+@media(max-width:768px) {
+    .title {
+        font-size: 35px;
+    }
+    .contain {
+        width: 100%;
+    }
+
+    .contain-coments {
+        width: 90%;
+        margin: 10px;
+    }
+
+
+    
+}

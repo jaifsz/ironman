@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #D95204;
+    list-style: none;
+    text-decoration: none;
+}
+
+.contato {
+    background-image: url('https://images2.alphacoders.com/618/618073.jpg');
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+   
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+ .sec-form {
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 33px;
+}
+
+.informacoes {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#nome {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#email {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#number {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#date {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 500px;
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#text {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 500px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+#mensagem {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 2%;
+    margin-top: 10px;
+    width: 350px;
+    border: none;
+    outline: none;
+}
+
+
+.button {
+    width: 100px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+ }
+
+ .button:hover {
+    background-color: #fff;
+    color: black;
+ }
+
+
+ @media(max-width:768px) {
+    .contato {
+        background-image: none;
+        background-color: rgba(48, 46, 46, 0.5);
+    }
+    .sec-form {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #nome {
+        width: 50%;
+    }
+
+    #text {
+        width: 50%;
+    }
+
+    #email {
+        width: 50%;
+    }
+
+    #number {
+        width: 50%;
+        margin-top: 14px;
+    }
+
+    #date {
+       width: 50%;
+    }
+
+
+
+
+}
+
+
+
