@@ -14,7 +14,7 @@ function Header(){
             <nav>
                 <ul>
                     <Link style={{ textDecoration: 'none' }} to='/'>
-                    <li>Inicio</li>
+                    <li>Inicioo</li>
                     </Link>
                     <Link style={{ textDecoration: 'none' }} to='Contato' >
                     <li>Contato</li>
